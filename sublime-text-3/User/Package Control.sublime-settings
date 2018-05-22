@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"Anaconda",
+		"BracketHighlighter",
+		"DocBlockr",
+		"DocBlockr_Python",
+		"Emmet",
+		"GitGutter",
+		"Material Theme",
+		"Package Control",
+		"Predawn",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"sublimelint"
+	]
+}
