@@ -12,6 +12,7 @@ To set up build system for running C/C++ program in *Sublime Text 3* on Windows 
 * Go to: Tools>Build System>New Build System
 * Copy the file under github's "User/C++CodeBlockMinGW.sublime-build" and paste it and rename it as you wish without modifing "*.sublime-build" , but you have to set the right path of "path to\\MinGW\\bin\\g++.exe" (in my case "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin\\g++.exe") and then save it. You can also use castomised MinGW Distro.
 * Then write a C/C++ programe and go to Tools>Build System and select your build system. If you want to work with input output file then you have to create two file *inputf.in* and *outputf.in* in your working directory where the C/C++ file and have to build with " *-file-run".
+* Keep in mind that the source file name should not contain any space( i.e. "file name.cpp", "fi le name.c" etc are invalid and "file-name.cpp","filename.cpp" etc are valid file name). Because,(may be) _*file name*_ will be used as _*command*_ in _*Command Prompt*_.
 
 
 Link I've visited:
