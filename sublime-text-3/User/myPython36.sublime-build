@@ -1,0 +1,17 @@
+{
+    "cmd": ["D:/Applications/Python/python.exe", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python",
+    "shell":true,
+    "variants":
+        [
+            {
+                "name": "cmd-run",
+                "cmd": ["start", "cmd.exe", "@cmd", "/k", "python ${file} && timeout /t -1 && exit"]
+            },
+            {
+                "name": "file-run",
+                "shell_cmd": "python \"${file}\" < inputf.txt > outputf.txt"
+            }
+        ]
+}
